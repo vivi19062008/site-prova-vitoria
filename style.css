@@ -88,19 +88,19 @@ input[type="text"]{
 
 .container_fundo{
     background-color: rgb(255, 255, 255);
-    flex-direction: row;
 }
 
 .carro-1 {
     background-color: rgb(236, 161, 161);
     padding: 20px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
     border-radius: 20px;
-    margin: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.7em;
-    
 }
 
 .carro-2 {
@@ -233,7 +233,6 @@ input[type="text"]{
     height: 50px;
     text-align: right;
     line-height: 1.7em;
-
 }
 
 .botao {
@@ -355,3 +354,4 @@ footer .box-line-footer img{
     line-height: 1.7em;
 
 }
+
